@@ -6,7 +6,7 @@ import plotly.express as px
 
 # Cargar datos
 df = pd.read_csv(
-    "C:/Users/ffern/Desktop/Sprint 7/Render_Proyecto_S7/bike_sales.csv")
+    "bike_sales.csv")
 
 # Título
 st.header("Relación precio-kilometraje de motos usadas", divider="gray")
